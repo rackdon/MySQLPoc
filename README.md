@@ -1,8 +1,13 @@
 # MySQLPoc
 POC with mySQL using restaurant administration as example
 
-First of all:
+## Requirements
+Maven
+mySQL
 
+##First of all:
+
+### In terminal 
 $ mysql.server start;
 $ mysql -u root;
 
@@ -16,3 +21,6 @@ mysql> CREATE TABLE users(
 
 mysql> INSERT INTO users (username, password, fullname, type_of_user) VALUES ('admin', 'pass', 'Administrator', 'admin');
 mysql> INSERT INTO users (username, password, fullname, type_of_user) VALUES ('client', '1234', 'Client', 'client');
+
+### In the project
+mvn clean install
