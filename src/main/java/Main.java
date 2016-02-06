@@ -4,7 +4,6 @@ import user.Client;
 import user.User;
 
 import java.sql.Connection;
-import java.sql.DatabaseMetaData;
 import java.util.Map;
 import java.util.Scanner;
 
